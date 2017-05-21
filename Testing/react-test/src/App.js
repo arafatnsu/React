@@ -37,7 +37,7 @@ handleAddProject(project){
   render() {
     return (
       <div className="App">
-        <AddProject addProject={this.handleAddProject.bind()} />
+        <AddProject addProject={this.handleAddProject.bind(this)} />
         <Projects projects={this.state.projects} />
       </div>
     );
