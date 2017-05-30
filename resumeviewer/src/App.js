@@ -38,17 +38,22 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.resumeData);
     return (
-      <div className="App">
-        <Header />
-        <About />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
-      </div>
+
+        <div className="App">
+          {this.state.resumeData &&
+            <div>
+              <Header data={this.state.resumeData} />
+              <About />
+              <Resume />
+              <Portfolio />
+              <Testimonials />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        </div>
+
     );
   }
 }
