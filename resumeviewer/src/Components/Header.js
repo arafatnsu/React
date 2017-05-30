@@ -9,7 +9,6 @@ class Header extends Component {
     return (
       <header id="home">
       <nav id="nav-wrap">
-
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="" title="Hide navigation">Hide navigation</a>
 
@@ -21,7 +20,6 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
-
       </nav>
 
       <div className="row banner">
