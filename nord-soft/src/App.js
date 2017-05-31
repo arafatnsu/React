@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.css';
 import UserRow from './Components/UserRow';
+import RequestData from './Components/RequestData'
 class App extends Component {
     constructor(props) {
       super(props)
@@ -47,13 +48,23 @@ render() {
             <h5>Delete</h5>
           </div>
         </div>
-          {Object.keys(users).map(key => (
-            <UserRow name={users[key].name}
-                     email={users[key].email}
-                     phone={users[key].phone}
-                     key={key}
-            />
-          ))}
+          <div>
+            {!users &&
+              <RequestData />
+            }
+          </div>
+          <div>
+          {users &&
+            Object.keys(users).map(key => (
+              <UserRow name={users[key].name}
+                       email={users[key].email}
+                       phone={users[key].phone}
+                       key={key}
+              />
+            ))
+          }
+        </div>
+
       </div>
     );
   }
