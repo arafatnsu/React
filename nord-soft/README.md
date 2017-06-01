@@ -10,7 +10,7 @@ Few scrips/command to execute npm modules:
 
 This project is a react application based on task provided by Nord software React developer position.
 Folder contains:
-- Json file containing list of 19 random users with email, name and phone data
+- Json file containing list of 20 random users with email, name and phone data
 - Components to render view
 - styles
 - package.json containing list of npm modules
