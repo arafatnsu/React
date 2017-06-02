@@ -15,4 +15,4 @@ const UserRow = ({name, email, phone}) => (
 )
 
 
-export default UserRow
+export default UserRow;

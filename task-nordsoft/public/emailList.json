@@ -1,0 +1,104 @@
+{
+  "emailData":[
+    {
+      "name": "John Doe",
+      "email": "john.doe11@gmail.com",
+      "phone": "040567871"
+    },
+    {
+      "name": "George Clooney",
+      "email": "george.clooney12@gmail.com",
+      "phone": "040568778"
+    },
+    {
+      "name": "Jessica Alba",
+      "email": "jessica.alba09@gmail.com",
+      "phone": "040039487"
+    },
+    {
+      "name": "Tom Hardy",
+      "email": "tom.hardy76@gmail.com",
+      "phone": "040564870"
+    },
+    {
+      "name": "Emma Watson",
+      "email": "emma.watson9098@gmail.com",
+      "phone": "040989876"
+    },
+    {
+      "name": "Charlize Theron",
+      "email": "charlize.theron545@gmail.com",
+      "phone": "040981873"
+    },
+    {
+      "name": "Pierce Brosnan",
+      "email": "pierce.brosnan55@gmail.com",
+      "phone": "040500079"
+    },
+    {
+      "name": "Christian Bale",
+      "email": "christian.bale44@gmail.com",
+      "phone": "040333273"
+    },
+    {
+      "name": "Brad Pitt",
+      "email": "brad.pitt0909@gmail.com",
+      "phone": "045167872"
+    },
+    {
+      "name": "Robert Downey, Jr",
+      "email": "robert.downeyjr2@gmail.com",
+      "phone": "040990075"
+    },
+    {
+      "name": "Mark Wahlberg",
+      "email": "mark.wahlberg54@gmail.com",
+      "phone": "040547870"
+    },
+    {
+      "name": "Tom Hanks",
+      "email": "tom.hanks88@gmail.com",
+      "phone": "040521873"
+    },
+    {
+      "name": "Leonardo DiCaprio",
+      "email": "leonardo.diCaprio11@gmail.com",
+      "phone": "044568378"
+    },
+    {
+      "name": "Tom Cruise",
+      "email": "tom.cruise55@gmail.com",
+      "phone": "040560977"
+    },
+    {
+      "name": "Adam Sandler",
+      "email": "adam.sandler99@gmail.com",
+      "phone": "040567879"
+    },
+    {
+      "name": "Bradley Cooper",
+      "email": "bradley.cooper433@gmail.com",
+      "phone": "040567880"
+    },
+    {
+      "name": "Scarlett Johansson",
+      "email": "scarlett.johansson88@gmail.com",
+      "phone": "040509072"
+    },
+    {
+      "name": "Angelina Jolie",
+      "email": "angelina.jolie33@gmail.com",
+      "phone": "040123451"
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "email": "jennifer.lawrence56@gmail.com",
+      "phone": "040567878"
+    },
+    {
+      "name": "Amber Heard",
+      "email": "amber.heard00@gmail.com",
+      "phone": "040561973"
+    }
+  ]
+}
