@@ -35,7 +35,7 @@ class App extends Component {
         </div>
         <div>
           <div className="row user-header-info">
-            <div className="col-xs-4 col-sm-3">Name</div>
+            <div className="col-xs-4 col-sm-3">Name<span className="fa fa-arrow-down name-glif" aria-hidden="true"></span></div>
             <div className="col-xs-8 col-sm-4">E-mail address</div>
             <div className="hidden-xs col-sm-3">Phone number</div>
             <div className="hidden-xs col-sm-1"></div>
