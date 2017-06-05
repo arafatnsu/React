@@ -18,6 +18,8 @@ class App extends Component {
     this.addNewUser = this.addNewUser.bind(this)
     this.updateField = this.updateField.bind(this)
     this.validateInput = this.validateInput.bind(this)
+    this.deleteUser = this.deleteUser.bind(this)
+    this.editUser = this.editUser.bind(this)
   }
 
   getUsers() {
@@ -28,6 +30,21 @@ class App extends Component {
         this.setState({users: data.emailData})
       }.bind(this),
     })
+  }
+
+  editUser(e) {
+
+    alert('wowow')
+  }
+
+  deleteUser(e) {
+      const users = this.state.users
+      const userId = e.target.getAttribute('data-id')
+
+     let newUsers = Object.keys(users).filter(key => (key !== userId)).map(function(key, user) {
+       return users[key]
+     })
+     this.setState({users: newUsers})
   }
 
   updateField(e) {
@@ -48,7 +65,6 @@ class App extends Component {
   }
 
   addNewUser() {
-    this.validateInput()
     if(this.validateInput() === true) {
       let oldUsers = this.state.users
       let user = this.state.user
@@ -84,7 +100,7 @@ class App extends Component {
         </div>
         <div>
           <div className="row user-header-info">
-            <div className="col-xs-4 col-sm-3">Name<span className="fa fa-arrow-down name-glif" aria-hidden="true"></span></div>
+            <div className="col-xs-4 col-sm-3">Name</div>
             <div className="col-xs-8 col-sm-4">E-mail address</div>
             <div className="hidden-xs col-sm-3">Phone number</div>
             <div className="hidden-xs col-sm-1"></div>
@@ -95,6 +111,9 @@ class App extends Component {
                      email={users[key].email}
                      phone={users[key].phone}
                      key={key}
+                     userId={key}
+                     editUser={this.editUser}
+                     deleteUser={this.deleteUser}
             />
             ))
           }
